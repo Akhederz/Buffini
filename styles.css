@@ -28,7 +28,7 @@ body {
     color: white;
     font-size: 46px;
     font-weight: 400;
-    line-height: 43.70px;
+    line-height: 43px;
 }
 
 .top-three {
@@ -79,9 +79,9 @@ body {
     color: #145CC7;
     font-size: 24px;
     font-weight: 400;
-    line-height: 22.80px;
+    line-height: 22px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .profile-pic {
@@ -96,7 +96,7 @@ body {
     color: #145CC7;
     font-size: 36px;
     font-weight: 600;
-    line-height: 34.20px;
+    line-height: 34px;
     text-align: center;
 }
 
@@ -169,7 +169,7 @@ body {
     height: 26px;
     background: #145CC7;
     border-radius: 50%;
-    
+    border-color: #145CC7;
     position: absolute;
     top: 60px;
     right: 5px;
@@ -182,7 +182,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items:center;
@@ -193,17 +193,18 @@ body {
 .lower-card .name {
     color: #145CC7;
     font-size: 24px;
-    font-weight: 600;
-    line-height: 22.80px;
+    font-weight: 400;
+    line-height: 22px;
 }
 
 .lower-card .points {
     color: #145CC7;
     font-size: 24px;
-    font-weight: 600;
-    line-height: 22.80px;
+    font-weight: 400;
+    line-height: 22px;
     position: absolute;
     right: 20px;
+    margin-top: 0
 }
 
 /* Responsive styling for 814px width */
